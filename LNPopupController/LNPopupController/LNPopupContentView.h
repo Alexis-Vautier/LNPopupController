@@ -25,9 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, strong, readonly) UIPanGestureRecognizer* popupInteractionGestureRecognizer;
 
 /**
- *  The popup close button.
+ *  The popup close button. (read-only)
  */
-@property (nullable, nonatomic, strong, readonly) LNPopupCloseButton* popupCloseButton;
+@property (nonatomic, strong, readonly) LNPopupCloseButton* popupCloseButton;
 
 @end
 
